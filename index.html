@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)http://hell.pcmoe.net/start.htm -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>きょうの地獄通信</title>
+<meta name="keywords" content="萌研社,地狱通信,地狱少女,地狱入口">
+<meta name="description" content="汝之恨吾聞之,此怨此恨,將流向地獄……">
+
+<link rel="shortcut icon" href="http://hell.pcmoe.net/Favicon.ico">
+<link rel="bookmark" href="http://hell.pcmoe.net/Favicon.ico">
+
+<style type="text/css">
+.startbox {
+	margin-top: 125px;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+.submit_btn {
+	background-color: #666;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	font: 12px bold;
+	color: #fff;
+	border-top-style: none;
+	border-left-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	height: 25px;
+}
+</style>
+<script src="jquery-1.11.3.js"></script>
+<script type="text/javascript">
+function checkinput() 
+{ 
+	
+   if(hell.nickname.value==""){alert("請輸入最憎恨之人的名字！！"); 
+    hell.nickname.focus(); 
+    return false; 
+  } 
+  alert(hell.nickname.value );
+  window.location.href="./test.html";
+} 
+</script> 
+<script type="text/javascript" src="./きょうの地獄通信_files/stats" charset="UTF-8"></script>
+</head>
+
+<body style="background-color:#000">
+	<audio autoplay="autoplay" src="1.wav">??</audio>
+<div class="startbox">
+<img alt="きょうの地獄通信" src="resources/top01.gif">
+</div><br><br><br>
+<form id="hell" name="hell" >
+<p align="center"><font color="#ffffff"> あ な た の 怨 み 、 晴 ら し ま す 。</font></p>
+<p align="center"><input id="nickname" name="nickname" maxlength="40" size="30"> </p>
+<p align="center"><input id="send_btn" type="button" value="送　信" class="submit_btn"  onclick="checkinput()"></p>
+<center></center></form>
+
+<div id="info" style="display: none">
+© 地獄少女プロジェクト<br>© PcMoe.NeT, Ltd. 2010-2020 
+</div>
+
+
+</body></html>
